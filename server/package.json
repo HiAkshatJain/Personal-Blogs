@@ -35,11 +35,11 @@
     "@types/express": "^4.17.23",
     "@types/morgan": "^1.9.10",
     "@types/multer": "^2.0.0",
-    "@types/node": "^20.19.11",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
     "eslint": "^8.52.0",
     "nodemon": "^3.0.1",
+    "@types/node": "^22.x",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }

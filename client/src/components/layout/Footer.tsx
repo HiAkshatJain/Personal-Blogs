@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
             <span>using Akshat & ChatGPT</span>
           </p>
           <p className="text-gray-500 text-xs mt-2">
-            © 2025 Blog - Akshat Jain. All rights reserved.
+            © 2023 Blog - Akshat Jain. All rights reserved.
           </p>
         </div>
       </div>
