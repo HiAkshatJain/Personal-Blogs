@@ -53,9 +53,12 @@ const accessLogStream = fs.createWriteStream(path.join(logDirectory, 'access.log
 // Middleware
 app.use(morgan('combined', { stream: accessLogStream }));
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' 
-    ? ['https://perso-blogs.netlify.app'] 
-    : ['http://localhost:3000', 'http://localhost:5173'],
+  origin: 
+  // process.env.NODE_ENV === 'production' 
+    // ? 
+    ['https://perso-blogs.netlify.app'],
+    // : 
+    // ['http://localhost:3000', 'http://localhost:5173'],
   credentials: true
 }));
 
